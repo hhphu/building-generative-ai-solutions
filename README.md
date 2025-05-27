@@ -6,3 +6,4 @@ Explore the potential and the challenges of developing with generative models, p
   
 ## CONTENTS
 - [Introduction to building AI App](introduction-to-building-ai-app.md)
+- [Building GenAI apps with Vector Databases](building-gen-ai-solutions-with-vector-databases.md)
