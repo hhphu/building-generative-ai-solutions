@@ -9,7 +9,7 @@
   - [Vector Search](#vector-search)
       - [Vector Distance](#vector-distance)
       - [Embeddings](#embeddings)
-      - [BERT](#bert:-bi-directional-encoder-representation-from-Transformers)
+      - [BERT](#bert)
   - [Vector Databases](#vector-databases)
       - [Vector Search Tools](#vector-search-tools)
       - [Data Management](#data-management)
@@ -33,7 +33,8 @@ Use cases:
 - Active learning
 - Anomaly detection
 
-### BERT: Bi-directional Encoder Representation from Transformers
+### BERT
+BERT is Bi-directional Encoders Representation from Transformers, a powerful language model developed by Google AI, designed to enhance natural language processing (NLP) tasks. It uses a transformer architecture and learns to understand the context of words by considering both their preceding and following words. 
 
 ![image](https://github.com/user-attachments/assets/00c19f8f-2a99-4104-a6e1-4018abbe7bdf)
 
