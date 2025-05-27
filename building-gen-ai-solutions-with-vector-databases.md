@@ -7,7 +7,13 @@
   - Generative AI: allow applications to generate outputs that are relevant to the users and provided contexts.
 - Outline:
   - [Vector Search](#vector-search)
+      - [Vector Distance](#vector-distance)
+      - [Embeddings](#embeddings)
+      - [BERT](#bert:-bi-directional-encoder-representation-from-Transformers)
   - [Vector Databases](#vector-databases)
+      - [Vector Search Tools](#vector-search-tools)
+      - [Data Management](#data-management)
+      - [Advanced Vector Operations](#advanced-vector-operations)
 
 ## Vector Search
 ### Vector Distance
@@ -27,7 +33,7 @@ Use cases:
 - Active learning
 - Anomaly detection
 
-### BERT: Bi-directional Encoder Represntation from Transformers
+### BERT: Bi-directional Encoder Representation from Transformers
 
 ![image](https://github.com/user-attachments/assets/00c19f8f-2a99-4104-a6e1-4018abbe7bdf)
 
