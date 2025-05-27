@@ -21,6 +21,7 @@
 - Data (texts, images, videos) can be represented as a vector or list of floating point numbers
 - Vecor search is about finding vectors in your dataset taht is closet to a query vector
 - Two most common ways to calculate the distances between two vectors: Euclidean distance and cosine distance.
+  - Euclidean
 - K-nearest neighbors: algorithm used to retrieve closest vectors to a query vectror based on the chosen distance metric.
 - Example: [Basic Vector Search](BasicVectorSearch.ipynb)
 
@@ -44,3 +45,20 @@ Use cases:
 - Sentence embedding
 
 Example: [Embedding Functions](EmbeddingFunctions.ipybn)
+
+## Vector Databases
+### Vector Search Tools
+- Vector Index libraries: focus on fast vector search (FAISS, Annoy). Miss data management
+- Traditional DBs (Pgvector, Elastic): not scalable and optimized
+- Vector Dabases: unstrcutre data management (text, audios, videos), more complete offerings.
+
+### Data Management
+- Support vector querying and indexing
+  - Querying needs:
+      - Filter support to limit results to particular documents. 
+      - Post-processing support so we can combine the results with other recallers
+  - Indexing needs:
+      - Updates: we need to be able to update the database, whereas updating existing entries or adding new ones without indexing the whole thing
+      - Versioning: important for AI, for comparison and roll back
+- We also need cache and object storage
+
