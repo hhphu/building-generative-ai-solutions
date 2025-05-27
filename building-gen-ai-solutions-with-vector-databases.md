@@ -1,0 +1,17 @@
+# Building Generative AI solutions with Vector Databases
+- Vector Databases are designed to store and manage vector data, which represents information in a numerical format that machines can understand.
+- Serves as long-term memory that allows AI models to recall relevant information without being re-trained.
+- Use cases:
+  - Search and recommender systems
+  - Computer vision (used to detect audio/videos, used for deep researchs & trainings)
+  - Generative AI: allow applications to generate outputs that are relevant to the users and provided contexts.
+- Outline:
+  - Vector Search
+      - Vector distance
+      - Embedding functions
+  - Basic operations of vector databases
+      - Storing and managing data
+      - Querying vector databases
+  - Indexing
+      - KNN vs ANN
+      - ANN techniques
