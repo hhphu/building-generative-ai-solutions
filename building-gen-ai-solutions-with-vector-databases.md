@@ -44,7 +44,7 @@ Use cases:
 - Extract: Take the average of each token embedding
 - Sentence embedding
 
-Example: [Embedding Functions](EmbeddingFunctions.ipybn)
+Example: [Embedding Functions](EmbeddingFunctions.ipynb)
 
 ## Vector Databases
 ### Vector Search Tools
@@ -61,4 +61,18 @@ Example: [Embedding Functions](EmbeddingFunctions.ipybn)
       - Updates: we need to be able to update the database, whereas updating existing entries or adding new ones without indexing the whole thing
       - Versioning: important for AI, for comparison and roll back
 - We also need cache and object storage
+
+Example: [Vector Databases Basics](VectorDatabaseBasics.ipynb)
+
+### Advanced Vector Operations
+**KNN** is too slow at scale.
+**ANN - Approximate Nearest Neighbors**: Trade speed for accuracy. The idea is to reduce the search space
+- IVF - Inverted File: index divides the search space into patritions. We only search the patritions closest to the query (1-5% of all the vectors)
+- HNSW - Hierarchical Navigable Small Worlds: create multiples layers of graphs where each node is a vector and the edges are the distances between the vectors. We organize the graphs to minimize the number of hops to get to the searched vectors.
+**Compressing vectors using Quantization**
+- Split the vector(1024x32-bit) into 8 subvectors (128x32-bit)
+- Use k-means to create 8-bit clusters that represent the subvectors.
+- Since we use the centroid, we may introduce some errors.
+
+Example: [Simple Recommender](SimpleRecommender.ipynb) , [Multimodal Search](MultimodalSearch.ipynb)
 
