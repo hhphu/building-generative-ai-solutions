@@ -28,4 +28,10 @@ Prompts and Prompt engineer helps bridge the model and the application layers:
 - Reduces the likelihood of errors and misunderstanding due to users' poor input -> increase accuracy and precision.
 - Example: [GenAIFeatureDesignPromptTemplate](./GenAIFeatureDesignPromptTemplate.ipynb)
 
-## 
+## Generative AI Components
+- LLM models: The core of Generative AI Applications, where users input are processed and outputs are generated
+- Application Logic: acts as controller that processes users input before sending them to the models. Once the models generate the output, the application logics also process the outputs before displaying it to users
+- User Interface: Through which users interact with the model. This is where users provide their prompts and inputs for the models to process.
+- Database: store users' information and AI responses. They can also be vector databases, which can be used for RAG (Retrieval Augmented Generative)
+- API: Allows the applications to connect to external services and platforms. This is also the means for the appliation to communicate with other AI models.
+- Example: [GenAIFeatureSocialMediaPost](./GenAIFeatureSocialMediaPost.ipynb)
