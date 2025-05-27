@@ -35,3 +35,25 @@ Prompts and Prompt engineer helps bridge the model and the application layers:
 - Database: store users' information and AI responses. They can also be vector databases, which can be used for RAG (Retrieval Augmented Generative)
 - API: Allows the applications to connect to external services and platforms. This is also the means for the appliation to communicate with other AI models.
 - Example: [GenAIFeatureSocialMediaPost](./GenAIFeatureSocialMediaPost.ipynb)
+
+## Building AI Agents
+- Perform automation tasks, mimicking human's decision making
+- Allow the agents to interact with outside resources like databases and the Internet to complete its tasks
+- Can be autonomouse or semi-autonomous. Can perceive and react to environments, making decision without or with little humans' interactions.
+
+### ReAct Prompting for Agents
+A popular prompting method called ReAct can be used to create LLM-based agents. REACT prompt techniques use LLMs to generate both reasoning traces and task-specific actions.
+
+- The reasoning aspect involves the AI agent thinking through a problem, breaking it down into smaller, manageable parts, and forming a plan or series of steps to solve it.
+- The action component allows the agent to make decisions about gathering additional information relevant to the task.
+- The observation step often involves delivering a final response about a task or recording an event. These observations can be used for further reasoning. REACT-enabled agents actively seek out new information, update their understanding, and refine their reasoning based on observations.
+
+A REACT prompt for a wellness agent might be: "Your goal is to improve the wellness of the user by interleaving thought, action, and observation."
+
+- Example: [WellnessAgent](./WellnessAgent.ipynb)
+
+## Function Calling
+- Provides a structured method for directing an AI's generative capabilities, allowing it to produce specific and actionable outputs.
+- Helps standardize responses, ensuring they follow a consistent format that can be easily interpreted.
+- Allows models to interact with external APIs or databases, enabling real-time data retrieval.
+- Essential for improving the practicality of LLM applications by ensuring consistent response formats, enabling integration with external data sources, and allowing the AI to perform structured tasks relevant to user needs.
