@@ -7,14 +7,7 @@
   - Generative AI: allow applications to generate outputs that are relevant to the users and provided contexts.
 - Outline:
   - [Vector Search](#vector-search)
-      - [Vector distance](#vector-distance)
-      - [Embedding functions](#embeddings)
-  - Basic operations of vector databases
-      - Storing and managing data
-      - Querying vector databases
-  - Indexing
-      - KNN (K nearest neighbors) vs ANN
-      - ANN techniques
+  - [Vector Databases](#vector-databases)
 
 ## Vector Search
 ### Vector Distance
