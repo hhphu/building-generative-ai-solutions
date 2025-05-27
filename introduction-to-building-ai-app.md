@@ -57,3 +57,9 @@ A REACT prompt for a wellness agent might be: "Your goal is to improve the welln
 - Helps standardize responses, ensuring they follow a consistent format that can be easily interpreted.
 - Allows models to interact with external APIs or databases, enabling real-time data retrieval.
 - Essential for improving the practicality of LLM applications by ensuring consistent response formats, enabling integration with external data sources, and allowing the AI to perform structured tasks relevant to user needs.
+- Example: [FunctionCallingDemo](./FunctionCallingDemo.ipynb)
+
+### Exercise - Build a Project Management Assistant
+In this exercise, you'll build a project management assistant that uses the OpenAI API function calling. You'll use reading and writing to a CSV file to simulate reading and writing from a database or project management tool API.
+
+Solution: [BuildProjectManagementAssistant](BuildProjectManagementAssistant.ipynb)
