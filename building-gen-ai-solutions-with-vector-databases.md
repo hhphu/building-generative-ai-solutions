@@ -20,7 +20,6 @@
 - Data (texts, images, videos) can be represented as a vector or list of floating point numbers
 - Vecor search is about finding vectors in your dataset taht is closet to a query vector
 - Two most common ways to calculate the distances between two vectors: Euclidean distance and cosine distance.
-  - Euclidean
 - K-nearest neighbors: algorithm used to retrieve closest vectors to a query vectror based on the chosen distance metric.
 - Example: [Basic Vector Search](BasicVectorSearch.ipynb)
 
