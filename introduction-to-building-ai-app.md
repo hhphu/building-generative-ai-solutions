@@ -2,6 +2,9 @@
 - [Prompts and Prompt Engineer](#prompts-and-prompt-engineer)
 - [Generative AI Features and Solutions](#generative-ai-features-and-solutions)
 - [Prompt template](#prompt-template)
+- [Generative AI Components](#generative-ai-components)
+- [Building AI Agents](#building-ai-agents)
+- [Function Calling](#function-calling)
 
 ## Prompts and Prompt Engineer
 Prompts are input statements or questions that are provided to a model to generate a desired output or response.
